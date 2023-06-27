@@ -956,7 +956,7 @@ textarea.input {
 }
 
 @media (max-width: 850px) {
-  .item {
+  .item-form {
     grid-template-columns: 1fr;
   }
   .contact {
@@ -971,7 +971,4 @@ textarea.input {
     height: 40px;
     font-size: 12px;
   }
-}
-
-@media (max-height: 1280px) {
 }
