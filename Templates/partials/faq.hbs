@@ -1,0 +1,108 @@
+<Div class="container-fluid mt-5 about-style" id="faqid">
+  {{! <div class="row"> }}
+  {{! <div class="col-md-10 col-12 mx-auto"> }}
+  <h1 class="text-center main-heading">Frequently Asked Questions</h1>
+  {{! <div class="boxx"> }}
+  <div class="accordion">
+    <div class="image-box">
+      <img src="images/mainImg.png" alt="" />
+    </div>
+    <div class="accordion-text">
+      <ul class="faq-text">
+        <li>
+          <div class="question-arrow">
+            <span class="question">What is Evolve Intern's virtual internship
+              certification?</span>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <p>This is a one month (4 weeks) Virtual Internship Certification. In
+            this we work on minor projects from interns which improve their
+            skills. And on completion of the internship, the intern is given a
+            one-month internship certificate.</p>
+          <span class="line"></span>
+        </li>
+        <li>
+          <div class="question-arrow">
+            <span class="question">How to apply for Internship?</span>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <p>First of all, go to the internship section. There you select the
+            domain of your interest and click on apply now. And fill the google
+            form.</p>
+          <p>Note*: Please fill in the required details correctly in the google
+            form.</p>
+          <span class="line"></span>
+        </li>
+        <li>
+          <div class="question-arrow">
+            <span class="question">I have filled the internship form, What's
+              next?</span>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <p>If you have correctly filled all the required fields in the Google
+            Form, you will receive an offer letter from us before the start of
+            your internship. All important information and announcements
+            regarding the internship will be sent to you by mail.</p>
+          <span class="line"></span>
+        </li>
+        <li>
+          <div class="question-arrow">
+            <span class="question">What to do for task related queries, change
+              domain and offer letter or certificate correction?</span>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <p>If you have any task related queries,change domain and offer letter
+            or certificate correction,then contact on WhatsApp.</p>
+          <p>
+            Name:
+          </p>
+          <p>
+            Domain Name:
+          </p>
+          <p>SI/OL Number: (SI/OL Number mention on your internship offer
+            letter.)
+          </p>
+          <p>
+            Queries:
+          </p>
+          <span class="line"></span>
+        </li>
+        <li>
+          <div class="question-arrow">
+            <span class="question">I Have Completed My Tasks Well Before
+              Deadline. When Will I Get a Certificate?</span>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <p>You can submit your task through task submission form if you have
+            received it or wait for it to be shared. If you have submitted the
+            task before the deadline, Please expect your completion certificate
+            in the 1st week of next month.</p>
+          <span class="line"></span>
+        </li>
+        <li>
+          <div class="question-arrow">
+            <span class="question">Is there any fee for internship?</span>
+            <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <p>Yes, you will get to know about it in the regrestration form. The
+            fee is for providing certificates "Offer Letter, Letter of
+            Recommendation, Certificate of Completion".
+          </p>
+          <span class="line"></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  {{! </div> }}
+  {{! </div> }}
+  {{! </div> }}
+</Div>
+
+<script>
+  let li = document.querySelectorAll(".faq-text li"); for (var i = 0; i <
+  li.length; i++) { li[i].addEventListener("click", (e) => { let clickedLi; if
+  (e.target.classList.contains("question-arrow")) { clickedLi =
+  e.target.parentElement; } else { clickedLi =
+  e.target.parentElement.parentElement; }
+  clickedLi.classList.toggle("showAnswer"); }); }
+</script>
