@@ -955,7 +955,7 @@ textarea.input {
   color: #8f50ec;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 720px) {
   .item-form {
     grid-template-columns: 1fr;
   }
