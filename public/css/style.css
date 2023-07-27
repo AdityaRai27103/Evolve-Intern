@@ -51,7 +51,8 @@ h3 {
   text-transform: capitalize;
   letter-spacing: 0.1rem;
   padding-left: 1rem;
-  font-size: 1.9rem;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -92,7 +93,7 @@ h3 {
 a.btn1 {
   position: relative;
   padding: 20px 40px;
-  color: #000000;
+  color: white;
   text-decoration: none;
   display: inline-block;
   letter-spacing: 0.2rem;
@@ -102,15 +103,15 @@ a.btn1 {
 }
 
 a.btn1:hover {
-  border: 2px solid #000000;
+  border: 2px solid white;
 }
 
 a.btn1::before {
   content: "";
   position: absolute;
   inset: 0 8px;
-  border-left: 2px solid #000000;
-  border-right: 2px solid #000000;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
   transition: 1s;
 }
 
@@ -118,8 +119,8 @@ a.btn1::after {
   content: "";
   position: absolute;
   inset: 8px 0;
-  border-top: 2px solid #070202;
-  border-bottom: 2px solid #000000;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
   transition: 1s;
 }
 
@@ -137,7 +138,7 @@ a.btn1:hover::after {
 a.btn3 {
   position: relative;
   padding: 20px 40px;
-  color: #000000;
+  color: white;
   text-decoration: none;
   display: inline-block;
   letter-spacing: 0.2rem;
@@ -147,15 +148,15 @@ a.btn3 {
 }
 
 a.btn3:hover {
-  border: 2px solid #000000;
+  border: 2px solid white;
 }
 
 a.btn3::before {
   content: "";
   position: absolute;
   inset: 0 8px;
-  border-left: 2px solid #000000;
-  border-right: 2px solid #000000;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
   transition: 1s;
 }
 
@@ -163,8 +164,8 @@ a.btn3::after {
   content: "";
   position: absolute;
   inset: 8px 0;
-  border-top: 2px solid #070202;
-  border-bottom: 2px solid #000000;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
   transition: 1s;
 }
 
@@ -200,7 +201,7 @@ a.btn3:hover::after {
 
 .hero-text h1:nth-child(2) {
   font-weight: bold;
-  color: #5222d0;
+  color: #34f3ff;
 }
 
 .hero-text p,
@@ -208,7 +209,7 @@ a.btn3:hover::after {
 label {
   font-size: 1.7rem;
   letter-spacing: 0.2rem;
-  color: #777676;
+  color: #888888;
   text-transform: capitalize;
   margin-top: 1.5rem;
   margin-bottom: 5rem;
@@ -216,7 +217,7 @@ label {
 
 .hero-text p span {
   font-weight: bold;
-  color: #000;
+  color: white;
 }
 
 .btn-style {
@@ -263,7 +264,8 @@ label {
 .about-style .main-heading,
 .service-style .main-heading,
 .contact-style .main-heading {
-  font-size: 5rem;
+  margin-bottom: 1rem;
+  font-size: 6rem;
   color: #fd5c63;
   letter-spacing: 1px;
   font-weight: bold;
@@ -276,10 +278,9 @@ label {
 .about-style .sub-heading,
 .service-style .sub-heading,
 .contact-style .sub-heading {
-  color: #5222d0;
-  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
-    0px -4px 10px rgba(255, 255, 255, 0.3) !important ;
-  font-size: 3rem;
+  color: #34f3ff;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3) !important;
+  font-size: 4rem;
   letter-spacing: 3px;
   line-height: 2;
   font-weight: bold;
@@ -580,7 +581,7 @@ figure img {
   width: 100%;
   max-height: fit-content;
   justify-content: space-between;
-  background: #8f50ec;
+  background: #fd5c63;
   border-radius: 25px;
   padding: 45px 90px 45px 60px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -606,9 +607,10 @@ figure img {
   font-family: "Fira Sans", sans-serif;
 }
 .accordion .accordion-text .faq-text {
-  margin-top: 25px;
-  height: 263px;
+  /* margin-top: 25px; */
+  height: 290px;
   overflow-y: auto;
+  margin-bottom: 0;
 }
 .faq-text::-webkit-scrollbar {
   display: none;
@@ -694,7 +696,7 @@ span.question {
   .accordion .image-box {
     height: 360px;
     width: 300px;
-    background: #7f48ef;
+    background: #fd5c63;
     width: 100%;
     border-radius: 25px;
     padding: 30px;
@@ -847,6 +849,7 @@ footer {
   font-size: 20px;
   font-weight: normal;
   margin: 0;
+  font-family: "Poiret One", cursive !important;
 }
 
 .footer-distributed .footer-company-about span {
@@ -924,13 +927,14 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100%;
+  background-color: #333;
 }
 
 .container-form {
   position: relative;
   width: 100%;
   height: 100%;
-  background: #8f50ec;
+  /* background: #fd5c63; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -954,14 +958,14 @@ body {
 }
 
 .submit-form {
-  background: #8f50ec;
+  background: #fd5c63;
 }
 
 .first-text {
   padding-left: 20px;
   padding-top: 20px;
   font-size: 35px;
-  color: #8f50ec;
+  color: #fd5c63;
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -983,7 +987,7 @@ ul li {
 }
 
 .social-media i {
-  background: #8f50ec;
+  background: #fd5c63;
   padding: 10px;
   border-radius: 8px;
   transition: 0.3s;
@@ -992,12 +996,12 @@ ul li {
 
 .social-media i:hover {
   background: #fff;
-  color: #8f50ec;
+  color: #fd5c63;
 }
 
 .second-text {
   font-weight: 800;
-  color: #8f50ec;
+  color: #fd5c63;
   padding-left: 20px;
   font-size: x-large;
 }
@@ -1054,7 +1058,7 @@ form {
 .input-box .input:valid ~ label {
   top: -21px;
   left: 10px;
-  background: #8f50ec;
+  background: #fd5c63;
   font-weight: 800;
   font-size: 12px;
   padding: 5px;
@@ -1070,7 +1074,7 @@ textarea.input {
 .button-form {
   position: relative;
   top: 100px;
-  background: #8f50ec;
+  background: #fd5c63;
   outline: none;
   border: none;
   border: 2px solid #fff;
@@ -1086,7 +1090,7 @@ textarea.input {
 
 .button-form:hover {
   background: #fff;
-  color: #8f50ec;
+  color: #fd5c63;
 }
 
 @media (max-width: 720px) {
