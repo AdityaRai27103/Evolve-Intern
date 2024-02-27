@@ -1,4 +1,4 @@
-*View EvolveIntern Website Tour Video for how website looks like.*
+*Watch "EvolveIntern Website Tour" Video for how website looks like.*
 
 -> EvolveIntern is a dynamic web application simplifying student applications for virtual internships. Utilizing Handlebars, CSS, JavaScript, Bootstrap, and MongoDB, it offers seamless navigation across its sections: Homepage, Internships, FAQ, and Contact.
 
